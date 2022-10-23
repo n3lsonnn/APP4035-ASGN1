@@ -1,62 +1,82 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>IST4035 Students</title>
-        <meta charset="utf-8"/>
-        <!--CSS-->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="lms.css">
-    </head>
-    <body onload="fetchStudents()">
+
+<head>
+    <title>IST4035 Students</title>
+    <meta charset="utf-8" />
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lms.css">
+</head>
+
+<body onload="fetchStudents()">
+    <!--Navigation Bar Section-->
+    <section class="navigation">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="navbarID">
+            <div class="container">
+                <h1><b><a class="navbar-brand" href="#">Learning Management System</a></b></h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                </div>
+            </div>
+        </nav>
+    </section>
+    <div class="mb-3"> 
         <h1>Registry</h1>
-        <div>
-            <form>
-                <label>
-                    <span>Personal id:</span>
-                    <input id="studentId" type="text" />
-                </label>
-                <label>
-                    <span>Name:</span>
-                    <input id="studentName" type="text" />
-                </label>
-                <label>
-                    <span> Password:</span>
-                    <input id = "password" type="password" placeholder="enter Id then .ab">
-                </label>
-                <label>
-                    <span> Role:</span>
-                    <select name="Role" id="Role">
+    </div>
+    
+    <div class="mb-3">
+        <form>
+            <label class="form-label">
+                <span>Personal id:</span>
+                <input id="studentId" type="text"  class="form-control"/>
+            </label>
+            <label class="form-label">
+                <span>Name:</span>
+                <input id="studentName" type="text" class="form-control"/>
+            </label>
+            <label class="form-label">
+                <span> Password:</span>
+                <input id="password" type="password" placeholder="enter Id then .ab" class="form-control">
+            </label>
+            <label  class="form-label">
+                <span> Role:</span>
+                <select name="Role" id="Role">
                     <option value="Student">Student</option>
                     <option value="Lecturer">Lecturer</option>
-                    </select>
-                </label>
-                 <label>
-                    <span>Course1:</span>
-                    <input id="studentCourse" type="text" />
-                </label>
-                 <label>
-                    <span>Course2:</span>
-                    <input id="studentCourse1" type="text" />
-                </label>
-                 <label>
-                    <span>Course3:</span>
-                    <input id="studentCourse2" type="text" />
-                </label>
-                 <label>
-                    <span>Course4:</span>
-                    <input id="studentCourse3" type="text" />
-                </label>
-                <label>
-                    <span> </span>
-                    <button>Add student</button>
-                </label>
-            </form>
-            
-            <table  id="content">
-            </table>
-        </div>
+                </select>
+            </label>
+            <label class="form-label">
+                <span>Course1:</span>
+                <input id="studentCourse" type="text" class="form-control" />
+            </label>
+            <label class="form-label">
+                <span>Course2:</span>
+                <input id="studentCourse1" type="text"  class="form-control"/>
+            </label>
+            <label class="form-label">
+                <span>Course3:</span>
+                <input id="studentCourse2" type="text" class="form-control" />
+            </label>
+            <label>
+                <span>Course4:</span>
+                <input id="studentCourse3" type="text" class="form-control"/>
+            </label>
+            <label class="form-label">
+                <span> </span>
+                <button class="btn btn-primary">Add student</button>
+            </label>
+        </form>
 
-    </body>
-    <script src="js/main.js"></script>
+        <table id="content">
+        </table>
+    </div>
+
+</body>
+<script src="js/main.js"></script>
 
 </html>

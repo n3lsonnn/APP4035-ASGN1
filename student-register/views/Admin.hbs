@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>IST4035 Students</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="cs.css" />
+    </head>
+    <body onload="fetchStudents()">
+        <h1>Registry</h1>
+        <div>
+            <form>
+                <label>
+                    <span>Personal id:</span>
+                    <input id="studentId" type="text" />
+                </label>
+                <label>
+                    <span>Name:</span>
+                    <input id="studentName" type="text" />
+                </label>
+                <label>
+                    <span> Password:</span>
+                    <input id = "password" type="password" placeholder="enter Id then .ab">
+                </label>
+                <label>
+                    <span> Role:</span>
+                    <select name="Role" id="Role">
+                    <option value="Student">Student</option>
+                    <option value="Lecturer">Lecturer</option>
+                    </select>
+                </label>
+                 <label>
+                    <span>Course1:</span>
+                    <input id="studentCourse" type="text" />
+                </label>
+                 <label>
+                    <span>Course2:</span>
+                    <input id="studentCourse1" type="text" />
+                </label>
+                 <label>
+                    <span>Course3:</span>
+                    <input id="studentCourse2" type="text" />
+                </label>
+                 <label>
+                    <span>Course4:</span>
+                    <input id="studentCourse3" type="text" />
+                </label>
+                <label>
+                    <span> </span>
+                    <button>Add student</button>
+                </label>
+            </form>
+            
+            <table  id="content">
+            </table>
+        </div>
+
+    </body>
+    <script src="js/main.js"></script>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <meta charset="UTF.8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lms.css">
+    <style>
+       
+         /* Add a green text color and a checkmark when the requirements are right */
+         .valid {
+        color: green;
+        }
+
+        .valid:before {
+        position: relative;
+        left: -35px;
+        content: "✔";
+        }
+
+        /* Add a red text color and an "x" when the requirements are wrong */
+        .invalid {
+        color: red;
+        }
+
+        .invalid:before {
+        position: relative;
+        left: -35px;
+        content: "✖";
+        }
+   
+    </style>
+</head>
+
+<body>
+    <!--Navigation Bar Section-->
+    <section class="navigation">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+            <div class="container">
+                <h1><b><a class="navbar-brand" href="home.hbs">Learning Management school</a></b></h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!--Login Form-->
+    <section id="login" class="py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/logo.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h3>Login</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="usrname" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="studentName" required>
+                        </div>
+                        <div>
+                            <p>Hello, {{students.2.name}}</p>
+                        </div>
+                        <div class="mb-3">
+                            <label for="psw" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="psw">
+                        </div>
+                        <button type="submit" onclick="" class="btn btn-primary">Submit</button>
+                    </form>
+
+                    {{!-- <div id="message" class="container">
+                        <h5>Password must contain the following:</h5>
+                        <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+                        <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+                        <p id="number" class="invalid">A <b>number</b></p>
+                        <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+                    </div> --}}
+                </div>
+            </div>
+        </div>
+
+    </section>
+   
+    <div class="footer">
+
+  </div>
+    <script src="js/main.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>

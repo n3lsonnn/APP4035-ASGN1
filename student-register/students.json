@@ -1,0 +1,318 @@
+[
+  {
+    "id": 655859,
+    "name": "Miguna miguna",
+    "role": "Lecturer",
+    "course": "APP 4035",
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Miguna miguna",
+    "role": "Lecturer",
+    "course": [
+      "APP 4088"
+    ],
+    "course1": "IST3060",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Miguna miguna",
+    "role": "Lecturer",
+    "course": [
+      "APP 4088"
+    ],
+    "course1": "IST3060",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Miguna miguna",
+    "role": "Lecturer",
+    "course": [
+      "APP 4088"
+    ],
+    "course1": "IST3060",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Miguna miguna",
+    "role": "Lecturer",
+    "course": [
+      "APP 4088"
+    ],
+    "course1": "IST3060",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Jeff Crawford",
+    "role": "Lecturer",
+    "course": [
+      "APP 4035"
+    ],
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Jeff Crawford",
+    "role": "Lecturer",
+    "course": [
+      "APP 4035"
+    ],
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Jeff Crawford",
+    "course": [
+      "APP 4035"
+    ],
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Jeff Crawford",
+    "role": "Lecturer",
+    "course": [
+      "APP 4035"
+    ],
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Jeff Crawford",
+    "role": "Lecturer",
+    "course": [
+      "APP 4035"
+    ],
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Jeff Crawford",
+    "role": "Lecturer",
+    "course": [
+      "APP 4035"
+    ],
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Edwin",
+    "role": "Lecturer",
+    "course": "APP 4035",
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Edwin",
+    "role": "Lecturer",
+    "course": "APP 4035",
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Benedict Oteri",
+    "role": "Lecturer",
+    "course": [
+      "APP 4035"
+    ],
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Benedict Oteri",
+    "role": "Lecturer",
+    "course": [
+      "APP 4035"
+    ],
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Benedict Oteri",
+    "role": "Lecturer",
+    "course": [
+      "APP 4035"
+    ],
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 658593,
+    "name": "Kunta Kinte",
+    "password": "658593.ab",
+    "role": "Student",
+    "course": [
+      "APT2030"
+    ],
+    "course1": "APT2020",
+    "course2": "APT2040",
+    "course3": "IST3015"
+  },
+  {
+    "id": 658593,
+    "name": "Kunta Kinte",
+    "password": "658593.ab",
+    "role": "Student",
+    "course": [
+      "APT2030"
+    ],
+    "course1": "APT2020",
+    "course2": "APT2040",
+    "course3": "IST3015"
+  },
+  {
+    "id": 655859,
+    "name": "Martin Luther King jsr",
+    "password": "655859.ab",
+    "role": "Student",
+    "course": [
+      "APP 4035"
+    ],
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Martin Luther King jsr",
+    "role": "Student",
+    "course": [
+      "APP 4035"
+    ],
+    "course1": "IST3060",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Jeff Crawford",
+    "role": "Student",
+    "course": "APP 4035",
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Benedict Oteri",
+    "role": "Student",
+    "course": [
+      "APP 4035"
+    ],
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Benedict Oteri",
+    "role": "Student",
+    "course": [
+      "APP 4035"
+    ],
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Benedict Oteri",
+    "role": "Student",
+    "course": [
+      "APP 4035"
+    ],
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Benedict Oteri",
+    "role": "Student",
+    "course": [
+      "APP 4035"
+    ],
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Benedict Oteri",
+    "role": "Student",
+    "course": [
+      "APP 4035"
+    ],
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 655859,
+    "name": "Martin Luther King jsr",
+    "password": "655859.ab",
+    "role": "Student",
+    "course": [
+      "APP 4035"
+    ],
+    "course1": "IST3015",
+    "course2": "IST4035",
+    "course3": "APT2020"
+  },
+  {
+    "id": 658593,
+    "name": "Kunta Kinte",
+    "password": "658593.ab",
+    "role": "Student",
+    "course": [
+      "APT2030"
+    ],
+    "course1": "APT2020",
+    "course2": "APT2040",
+    "course3": "IST3015"
+  },
+  {
+    "id": 658593,
+    "name": "Kunta Kinte",
+    "password": "658593.ab",
+    "role": "Student",
+    "course": [
+      "APT2030"
+    ],
+    "course1": "APT2020",
+    "course2": "APT2040",
+    "course3": "IST3015"
+  }
+]
